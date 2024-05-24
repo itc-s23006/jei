@@ -1,5 +1,6 @@
 // s23006
 // d48Q22のコードをコンパイルエラーしないように修正
+// ONLINE と表示
 
 enum Connection {OFFLINE, ONLINE}
 

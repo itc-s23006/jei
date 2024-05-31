@@ -1,5 +1,6 @@
 // s23006
 // このプログラムは、ラグビーの試合結果から2チームの勝ち点を計算し、表示するプログラムである。
+// 32行追加プログラム
 
 class d48Q6kadai {
 		public static void main(String[] args) {
@@ -29,9 +30,14 @@ class Match {
 		}
 
 		String showResult() {
+				if (teamA.point > teamB.point) { // teamA > teamB = "Aチームの勝ち", teamB > teamA = "Bチームの勝ち"
+						System.out.println("Aチームの勝ち");
+				} else {
+						System.out.println("Bチームの勝ち");
+				}
 				return
 				"Team A:" + winPoint(teamA.point, teamB.point, teamA.tryNumber)
-				+ ", Team B:" + winPoint(teamB.point, teamA.point, teamB.tryNumber);
+				+ "Team B:" + winPoint(teamB.point, teamA.point, teamB.tryNumber);
 		}
 
 		int winPoint(int teamXPoint, int teamYPoint, int teamXTryNumber) {

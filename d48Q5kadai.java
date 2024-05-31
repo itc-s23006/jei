@@ -18,7 +18,7 @@ class d48Q5kadai {
             int minIndex = nextMinIndex;
             int minValue = numbers[nextMinIndex];
             for (int checkIndex = nextMinIndex + 1; checkIndex < numbers.length; checkIndex++) {
-                if (numbers[checkIndex] > minValue) { // 降順にするために '>' を使用
+                if (numbers[checkIndex] < minValue) { // 降順にするために '>' を使用
                     minIndex = checkIndex;
                     minValue = numbers[minIndex];
                 }

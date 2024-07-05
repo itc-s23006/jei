@@ -1,3 +1,6 @@
+// s23006
+// 入力した数値を表示するプログラムに改造。
+
 public class d49Q26kadai {                          
     public static void main(String[] args) {    
         if (args.length > 0) {

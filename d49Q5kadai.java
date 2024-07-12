@@ -1,3 +1,6 @@
+// s23006
+// 引数から3つの奇数とリミットを受け取り、各数値がどの奇数の倍数であるかを判定して表示するプログラム。
+
 public class d49Q5kadai {
     public static void main(String[] args) {
         // 入力引数から値を取得

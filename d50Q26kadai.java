@@ -1,3 +1,6 @@
+// s23006
+// d50Q26kadaiをアレンジして、列挙型で定義したConditionの要素全てを出力するように改造。
+
 enum Condition {
     ROAD, MUD, SNOW
 }

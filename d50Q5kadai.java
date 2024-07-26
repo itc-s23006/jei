@@ -1,3 +1,6 @@
+// s23006
+// ソートしている途中の内容も表示。
+
 public class d50Q5kadai {
     public static void main(String[] args) {
         int[] num = new int[args.length];

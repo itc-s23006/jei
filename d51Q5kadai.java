@@ -1,3 +1,6 @@
+// s23006
+// 基本使用料を100円値上げ、従量単価も各1円値上げして、改造したプログラム。
+//
 public class d51Q5kadai {
     public static void main(String[] args) {
         double[] level = {0.0, 24.0, 57.0, Double.MAX_VALUE};
